@@ -69,7 +69,7 @@ const findEditThenSave = (personId, done) => {
     _id: personId
   }, 
   {
-    favoriteFoods: [...favoriteFoods, foodToAdd]
+    favoriteFoods: Array.push(foodToAdd)
   },
   {
     new: true,
